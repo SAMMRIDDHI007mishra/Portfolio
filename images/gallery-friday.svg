@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="100%" height="100%">
+  <rect width="300" height="240" fill="#FFF0F5" rx="12" />
+  <!-- Grid paper pattern -->
+  <g stroke="#FFD6E0" stroke-width="1">
+    <line x1="0" y1="30" x2="300" y2="30" /><line x1="0" y1="60" x2="300" y2="60" /><line x1="0" y1="90" x2="300" y2="90" />
+    <line x1="0" y1="120" x2="300" y2="120" /><line x1="0" y1="150" x2="300" y2="150" /><line x1="0" y1="180" x2="300" y2="180" />
+    <line x1="40" y1="0" x2="40" y2="240" /><line x1="80" y1="0" x2="80" y2="240" /><line x1="120" y1="0" x2="120" y2="240" />
+    <line x1="160" y1="0" x2="160" y2="240" /><line x1="200" y1="0" x2="200" y2="240" /><line x1="240" y1="0" x2="240" y2="240" />
+  </g>
+
+  <!-- FRIDAY AI Brain Doodle -->
+  <g transform="translate(75, 40)">
+    <!-- Main AI Node -->
+    <rect x="30" y="30" width="90" height="60" rx="14" fill="#FFFFFF" stroke="#4A2E4B" stroke-width="2.5" />
+    <rect x="42" y="42" width="66" height="36" rx="8" fill="#3C2A3E" />
+    <!-- Glowing AI eyes -->
+    <circle cx="62" cy="60" r="4" fill="#FF8FAB" />
+    <circle cx="88" cy="60" r="4" fill="#FF8FAB" />
+    
+    <!-- Intent flow arrows & bubbles -->
+    <!-- Input prompt -->
+    <path d="M 0 60 L 25 60" stroke="#FB6F92" stroke-width="2" stroke-dasharray="3 3" />
+    <rect x="-35" y="50" width="30" height="20" rx="4" fill="#FFE599" stroke="#4A2E4B" stroke-width="1.5" />
+    <text x="-20" y="63" font-family="'Segoe UI', sans-serif" font-size="7" font-weight="bold" fill="#3C2A3E" text-anchor="middle">USER</text>
+
+    <!-- Output action -->
+    <path d="M 125 60 L 155 60" stroke="#95D5B2" stroke-width="2" />
+    <rect x="155" y="48" width="40" height="24" rx="6" fill="#D8F3DC" stroke="#4A2E4B" stroke-width="1.5" />
+    <text x="175" y="63" font-family="'Segoe UI', sans-serif" font-size="7" font-weight="bold" fill="#2D6A4F" text-anchor="middle">ACTION</text>
+
+    <!-- Memory Cache Node Below -->
+    <path d="M 75 95 L 75 115" stroke="#4A2E4B" stroke-width="2" />
+    <rect x="25" y="115" width="100" height="25" rx="6" fill="#E0AAFF" stroke="#4A2E4B" stroke-width="2" />
+    <text x="75" y="131" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#3C2A3E" text-anchor="middle">MEMORY STORE ♡</text>
+  </g>
+
+  <!-- Washi tape -->
+  <rect x="20" y="12" width="85" height="18" fill="#FFCAD4" stroke="#4A2E4B" stroke-width="1.5" transform="rotate(-4 20 12)" />
+  <text x="62" y="24" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold" fill="#3C2A3E" text-anchor="middle">ARCH SKETCH</text>
+</svg>

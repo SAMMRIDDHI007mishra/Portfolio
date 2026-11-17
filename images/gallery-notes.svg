@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="100%" height="100%">
+  <rect width="300" height="240" fill="#FFFBF5" rx="12" />
+  
+  <!-- Spiral Notebook open -->
+  <g transform="translate(30, 25)">
+    <!-- Pages -->
+    <rect x="0" y="0" width="240" height="190" rx="8" fill="#FFFFFF" stroke="#4A2E4B" stroke-width="2.5" />
+    <line x1="120" y1="0" x2="120" y2="190" stroke="#FFD6E0" stroke-width="2" />
+
+    <!-- Left page ruled lines -->
+    <line x1="20" y1="40" x2="105" y2="40" stroke="#735D78" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="20" y1="60" x2="95" y2="60" stroke="#735D78" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="20" y1="80" x2="100" y2="80" stroke="#735D78" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="20" y1="100" x2="80" y2="100" stroke="#735D78" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Pink highlighter over note -->
+    <rect x="18" y="55" width="85" height="10" fill="#FF8FAB" opacity="0.4" rx="2" />
+
+    <!-- Little diagram on right page -->
+    <rect x="135" y="35" width="90" height="65" rx="6" fill="#FFF0F5" stroke="#FFCAD4" stroke-width="1.5" />
+    <polyline points="145,80 165,65 185,72 205,48" fill="none" stroke="#FB6F92" stroke-width="2" />
+    <circle cx="205" cy="48" r="3" fill="#C77DFF" />
+    <text x="180" y="92" font-family="'Segoe UI', sans-serif" font-size="7" font-weight="bold" fill="#735D78" text-anchor="middle">feature variance</text>
+
+    <!-- Sticky note pinned -->
+    <g transform="translate(135, 115) rotate(4)">
+      <rect x="0" y="0" width="75" height="55" fill="#FFE599" stroke="#4A2E4B" stroke-width="1.5" />
+      <text x="37" y="22" font-family="'Comic Sans MS', cursive, sans-serif" font-size="8" font-weight="bold" fill="#3C2A3E" text-anchor="middle">check test split!</text>
+      <text x="37" y="38" font-family="'Comic Sans MS', cursive, sans-serif" font-size="8" fill="#FB6F92" text-anchor="middle">stratified ♡</text>
+    </g>
+
+    <!-- Pencil -->
+    <g transform="translate(15, 140) rotate(-15)">
+      <rect x="0" y="0" width="80" height="8" rx="2" fill="#FB6F92" stroke="#4A2E4B" stroke-width="1.5" />
+      <polygon points="80,0 90,4 80,8" fill="#FFE5D9" stroke="#4A2E4B" stroke-width="1.5" />
+      <polygon points="87,2.5 90,4 87,5.5" fill="#4A2E4B" />
+    </g>
+  </g>
+</svg>

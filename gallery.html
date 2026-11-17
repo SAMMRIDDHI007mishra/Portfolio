@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery ♡ Samriddhi Mishra</title>
+  <meta name="description" content="Visual scrapbook and technical illustrations from Samriddhi Mishra's coding journey, projects, and study lab.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-header" id="top">
+    <div class="container navbar">
+      <a href="index.html" class="nav-logo" aria-label="Samriddhi Mishra Home">
+        <span class="nav-logo-heart">♡</span> SAMRIDDHI <span class="nav-logo-heart">♡</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="hamburger-box">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav id="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="gallery.html" class="nav-link active" aria-current="page">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="gallery-page-section" aria-labelledby="gallery-page-heading">
+      <div class="container">
+        <!-- Page Header -->
+        <div class="section-header">
+          <div class="section-eyebrow">
+            <span>📷</span> VISUAL SCRAPBOOK
+          </div>
+          <h1 id="gallery-page-heading" class="section-title">My Creative &amp; Tech Scrapbook ♡</h1>
+          <p class="section-subtitle">
+            Original technical illustrations, system doodles, and cozy glimpses into my learning space.
+            <em>(Click any card for a full preview!)</em>
+          </p>
+        </div>
+
+        <!-- Scrapbook Grid -->
+        <div class="gallery-grid" role="region" aria-label="Project and workspace illustrations gallery">
+          
+          <!-- Item 0: Behind the Code -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/samriddhi.jpg"
+               data-title="Behind the Code ♡"
+               data-desc="Samriddhi Mishra — First-year B.Tech CSE student exploring AI, machine learning, and software architectures at Symbiosis Institute of Technology, Nagpur."
+               data-tech="Student Developer · AI Learner · SIT Nagpur">
+            <div class="gallery-thumbnail">
+              <img src="images/samriddhi.jpg" alt="Samriddhi Mishra smiling photo in developer scrapbook" style="object-position: top center;">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">Behind the Code ♡</h3>
+              <p class="gallery-subtext">Developer Profile Snapshot</p>
+            </div>
+          </div>
+
+          <!-- Item 1: Late-night debugging -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/gallery-debugging.svg"
+               data-title="Late-night debugging ♡"
+               data-desc="Midnight coding sessions where the tea is warm, the terminal is quiet, and tracking down one elusive variable scope bug feels like the best victory in the world."
+               data-tech="Python · GDB · Linux Shell · Herbal Tea">
+            <div class="gallery-thumbnail">
+              <img src="images/gallery-debugging.svg" alt="Illustrated late night coding scene with glowing laptop under stars">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">Late-night debugging ♡</h3>
+              <p class="gallery-subtext">Illustration · 02:45 AM</p>
+            </div>
+          </div>
+
+          <!-- Item 2: Building FRIDAY -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/gallery-friday.svg"
+               data-title="Building FRIDAY"
+               data-desc="Conceptual architecture sketch for my personal assistant agent FRIDAY: breaking down how natural language input flows into intent classifiers, memory lookup, and structured actions."
+               data-tech="NLP · Intent Parsing · Memory Cache">
+            <div class="gallery-thumbnail">
+              <img src="images/gallery-friday.svg" alt="Illustrated architecture doodle of FRIDAY AI assistant">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">Building FRIDAY</h3>
+              <p class="gallery-subtext">System Architecture Doodle</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Research notes -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/gallery-notes.svg"
+               data-title="Research notes"
+               data-desc="Handwritten notes, highlighted variance equations, and sticky notes analyzing benchmark dataset distributions for Parkinson's and Alzheimer's disease research."
+               data-tech="Statistical Analysis · Feature Sets · Colab">
+            <div class="gallery-thumbnail">
+              <img src="images/gallery-notes.svg" alt="Illustrated research notebook with charts and sticky notes">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">Research notes</h3>
+              <p class="gallery-subtext">Notebook Exploration</p>
+            </div>
+          </div>
+
+          <!-- Item 4: Tiny experiments -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/gallery-experiments.svg"
+               data-title="Tiny experiments"
+               data-desc="Symbolic beaker bubbling with binary logic, Python syntax, and curious ideas. Treating programming like a laboratory where each script is a fun new experiment."
+               data-tech="Python Scripts · Unit Tests · Logic">
+            <div class="gallery-thumbnail">
+              <img src="images/gallery-experiments.svg" alt="Illustrated science flask bubbling with digital binary sparkles">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">Tiny experiments</h3>
+              <p class="gallery-subtext">Code Lab #042</p>
+            </div>
+          </div>
+
+          <!-- Item 5: Data exploration -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/gallery-data.svg"
+               data-title="Data exploration"
+               data-desc="Visualizing tabular features, missing values, and correlation matrices in Pandas. Clean data preprocessing is where all solid machine learning starts."
+               data-tech="Pandas · NumPy · Data Cleaning">
+            <div class="gallery-thumbnail">
+              <img src="images/gallery-data.svg" alt="Illustrated Pandas dataframe and colorful bar chart">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">Data exploration</h3>
+              <p class="gallery-subtext">Pandas &amp; Numerical Stats</p>
+            </div>
+          </div>
+
+          <!-- Item 6: IoT ideas -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/gallery-iot.svg"
+               data-title="IoT ideas"
+               data-desc="Breadboard wire layouts and microcontroller pin connections designed for telemetry logging in water quality and community early-warning concepts."
+               data-tech="Sensors · GPIO · Serial UART · C">
+            <div class="gallery-thumbnail">
+              <img src="images/gallery-iot.svg" alt="Illustrated breadboard circuit with microcontroller and wires">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">IoT ideas</h3>
+              <p class="gallery-subtext">Physical Telemetry Sketch</p>
+            </div>
+          </div>
+
+          <!-- Item 7: Terminal & Shell -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/gallery-terminal.svg"
+               data-title="Terminal &amp; Shell"
+               data-desc="A cozy customized terminal interface running git commits and testing AI models with cute prompt greetings."
+               data-tech="Bash · Git CLI · Python CLI">
+            <div class="gallery-thumbnail">
+              <img src="images/gallery-terminal.svg" alt="Cute dark pink terminal window with shell commands">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">Terminal &amp; Shell</h3>
+              <p class="gallery-subtext">CLI Environment</p>
+            </div>
+          </div>
+
+          <!-- Item 8: Digital Workspace -->
+          <div class="gallery-item" tabindex="0" role="button" aria-haspopup="dialog"
+               data-img="images/gallery-desk.svg"
+               data-title="Cozy Digital Desk"
+               data-desc="My dream digital setup: dual screens with code and research papers, a clicky mechanical keyboard, succulent plants, and pink pinboard notes."
+               data-tech="Ergonomic Setup · Dual Display · Workspace">
+            <div class="gallery-thumbnail">
+              <img src="images/gallery-desk.svg" alt="Illustrated cozy digital desk room setup">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-caption">Cozy Digital Desk</h3>
+              <p class="gallery-subtext">Digital Room Layout</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Gallery Lightbox Modal -->
+  <div id="gallery-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" aria-label="Close modal preview">×</button>
+      <div class="modal-body">
+        <div class="modal-image-wrap">
+          <img id="modal-img" src="images/gallery-debugging.svg" alt="Modal preview illustration">
+        </div>
+        <h2 id="modal-title" class="modal-title">Preview Title</h2>
+        <p id="modal-desc" class="modal-desc">Detailed caption description will appear here.</p>
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; border-top: var(--border-thin) solid var(--border-subtle); padding-top: var(--space-md);">
+          <span style="font-size: 0.82rem; font-weight: 800; color: var(--accent-rose);">Technologies / Focus:</span>
+          <span id="modal-tech" class="tech-tag" style="background: var(--bg-card-alt);">Tech list</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Consistent Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span>♡</span> Built with curiosity by Samriddhi 
+        <button class="easter-egg-btn" aria-label="Easter egg button" title="Click me a few times! ♡">♡</button>
+      </div>
+
+      <nav aria-label="Footer Navigation">
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">Home</a></li>
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="projects.html" class="footer-link">Projects</a></li>
+          <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p class="footer-note">
+        Symbiosis Institute of Technology, Nagpur · B.Tech Computer Science Engineering
+      </p>
+    </div>
+  </footer>
+
+  <!-- Easter Egg Secret Toast -->
+  <div id="easter-egg-toast" class="secret-toast" role="alert" aria-live="polite">
+    <span>✨</span> You found the tiny secret ♡ — welcome to my digital room!
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="neuroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF0ED" />
+      <stop offset="100%" stop-color="#FFEBF2" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#neuroGrad)" rx="16" />
+
+  <!-- Dotted pattern -->
+  <g fill="#FFCAD4" opacity="0.4">
+    <circle cx="30" cy="30" r="2" /><circle cx="70" cy="30" r="2" /><circle cx="110" cy="30" r="2" /><circle cx="150" cy="30" r="2" />
+    <circle cx="250" cy="30" r="2" /><circle cx="290" cy="30" r="2" /><circle cx="330" cy="30" r="2" /><circle cx="370" cy="30" r="2" />
+    <circle cx="30" cy="210" r="2" /><circle cx="70" cy="210" r="2" /><circle cx="330" cy="210" r="2" /><circle cx="370" cy="210" r="2" />
+  </g>
+
+  <!-- RESEARCH NOTEBOOK (Left/Center) -->
+  <g transform="translate(45, 30)">
+    <!-- Book Cover/Pages -->
+    <rect x="0" y="0" width="165" height="150" rx="8" fill="#FFFDF9" stroke="#4A2E4B" stroke-width="2.5" />
+    <!-- Spiral Spine -->
+    <g fill="#4A2E4B">
+      <ellipse cx="6" cy="18" rx="3" ry="5" />
+      <ellipse cx="6" cy="42" rx="3" ry="5" />
+      <ellipse cx="6" cy="66" rx="3" ry="5" />
+      <ellipse cx="6" cy="90" rx="3" ry="5" />
+      <ellipse cx="6" cy="114" rx="3" ry="5" />
+      <ellipse cx="6" cy="138" rx="3" ry="5" />
+    </g>
+    <!-- Bookmark ribbon -->
+    <path d="M 120 0 L 120 40 L 130 30 L 140 40 L 140 0 Z" fill="#FB6F92" />
+    <!-- Header inside Notebook -->
+    <text x="25" y="24" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="bold" fill="#3C2A3E">📊 RESEARCH LOG</text>
+    <line x1="25" y1="30" x2="110" y2="30" stroke="#FF8FAB" stroke-width="1.5" />
+    
+    <!-- Mini Data Curve / Chart -->
+    <rect x="25" y="40" width="125" height="48" rx="4" fill="#FFF5F7" stroke="#FFCAD4" stroke-width="1" />
+    <polyline points="32,78 50,65 70,72 90,52 110,60 135,46" fill="none" stroke="#FB6F92" stroke-width="2" stroke-linecap="round" />
+    <circle cx="90" cy="52" r="3" fill="#C77DFF" stroke="#4A2E4B" stroke-width="1" />
+    <circle cx="135" cy="46" r="3" fill="#C77DFF" stroke="#4A2E4B" stroke-width="1" />
+
+    <!-- Feature Correlation Matrix Mini -->
+    <g transform="translate(25, 96)">
+      <rect x="0" y="0" width="18" height="14" fill="#FF8FAB" opacity="0.8" rx="2" />
+      <rect x="22" y="0" width="18" height="14" fill="#E0AAFF" opacity="0.6" rx="2" />
+      <rect x="44" y="0" width="18" height="14" fill="#FFCCD5" opacity="0.9" rx="2" />
+      <rect x="66" y="0" width="18" height="14" fill="#FF8FAB" opacity="0.7" rx="2" />
+      <rect x="88" y="0" width="18" height="14" fill="#95D5B2" opacity="0.6" rx="2" />
+      <text x="0" y="28" font-family="'Courier New', monospace" font-size="8" fill="#735D78">df.corr() ♡</text>
+    </g>
+  </g>
+
+  <!-- NEURAL NETWORK & BRAIN NODES ILLUSTRATION (Right) -->
+  <g transform="translate(230, 40)">
+    <!-- Decorative Circle Container -->
+    <circle cx="70" cy="65" r="58" fill="#FFFFFF" stroke="#4A2E4B" stroke-width="2.5" />
+    <!-- Brain Silhouette / Cute Stylized Cloud-Brain -->
+    <path d="M 45 65 A 18 18 0 0 1 65 42 A 20 20 0 0 1 95 48 A 18 18 0 0 1 105 68 A 18 18 0 0 1 85 86 A 18 18 0 0 1 50 82 A 18 18 0 0 1 45 65 Z" fill="#FFE5EC" stroke="#FF8FAB" stroke-width="2" />
+    <!-- Neural Network Nodes & Links -->
+    <line x1="50" y1="55" x2="70" y2="48" stroke="#C77DFF" stroke-width="1.5" />
+    <line x1="70" y1="48" x2="90" y2="60" stroke="#C77DFF" stroke-width="1.5" />
+    <line x1="50" y1="55" x2="68" y2="70" stroke="#C77DFF" stroke-width="1.5" />
+    <line x1="68" y1="70" x2="90" y2="60" stroke="#C77DFF" stroke-width="1.5" />
+    <line x1="68" y1="70" x2="80" y2="80" stroke="#C77DFF" stroke-width="1.5" />
+
+    <circle cx="50" cy="55" r="4" fill="#FB6F92" stroke="#4A2E4B" stroke-width="1.5" />
+    <circle cx="70" cy="48" r="4.5" fill="#FFE599" stroke="#4A2E4B" stroke-width="1.5" />
+    <circle cx="90" cy="60" r="4" fill="#95D5B2" stroke="#4A2E4B" stroke-width="1.5" />
+    <circle cx="68" cy="70" r="4" fill="#E0AAFF" stroke="#4A2E4B" stroke-width="1.5" />
+    <circle cx="80" cy="80" r="3.5" fill="#FB6F92" stroke="#4A2E4B" stroke-width="1.5" />
+    <!-- Tiny heart inside brain center -->
+    <path d="M 70 60 C 70 60 67 57 67 55 C 67 53.5 68.5 53 69.5 54 C 70.5 53 72 53.5 72 55 C 72 57 70 60 70 60 Z" fill="#FB6F92" />
+  </g>
+
+  <!-- STICKERS & LABELS -->
+  <g transform="translate(30, 188) rotate(-2)">
+    <rect x="0" y="0" width="135" height="24" rx="4" fill="#E0AAFF" stroke="#4A2E4B" stroke-width="2" />
+    <text x="67" y="16" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" fill="#3C2A3E" text-anchor="middle">🔬 DATA EXPLORATION</text>
+  </g>
+  <g transform="translate(180, 190) rotate(3)">
+    <rect x="0" y="0" width="185" height="24" rx="12" fill="#FFF275" stroke="#4A2E4B" stroke-width="2" />
+    <text x="92" y="16" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="bold" fill="#3C2A3E" text-anchor="middle">★ PANDAS · COLAB · NUMPY</text>
+  </g>
+</svg>

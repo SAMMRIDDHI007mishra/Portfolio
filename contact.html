@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact ♡ Samriddhi Mishra</title>
+  <meta name="description" content="Get in touch with Samriddhi Mishra — Discuss AI projects, research ideas, and software development collaboration.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-header" id="top">
+    <div class="container navbar">
+      <a href="index.html" class="nav-logo" aria-label="Samriddhi Mishra Home">
+        <span class="nav-logo-heart">♡</span> SAMRIDDHI <span class="nav-logo-heart">♡</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="hamburger-box">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav id="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-page-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <!-- Page Header -->
+        <div class="section-header">
+          <div class="section-eyebrow">
+            <span>💌</span> SAY HELLO
+          </div>
+          <h1 id="contact-heading" class="section-title">Let's build something interesting ♡</h1>
+          <p class="section-subtitle">
+            Whether you want to discuss AI research, chat about algorithms, or share project ideas, I'd love to hear from you!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Form -->
+          <div class="card tilt-left" style="background: #FFFFFF;">
+            <div class="washi-tape tape-left" aria-hidden="true"></div>
+
+            <!-- Frontend-Only Success Banner -->
+            <div id="form-success" class="form-success-banner" role="status" aria-live="polite">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">💌✨</div>
+              <h2 style="font-size: 1.5rem; color: #1E4620; margin-bottom: 0.5rem;">
+                Your message is ready to fly! 💌
+              </h2>
+              <p style="color: #2D6A4F; font-size: 0.95rem; margin-bottom: var(--space-md);">
+                Thank you for reaching out! Since this is a client-side college portfolio project running offline without a backend server, no email was transmitted across the web.
+              </p>
+              <p style="color: #1E4620; font-size: 0.9rem; font-weight: 700;">
+                Feel free to connect directly through campus or academic channels at Symbiosis Institute of Technology, Nagpur!
+              </p>
+              <button type="button" class="btn btn-secondary btn-sm" style="margin-top: var(--space-md);" onclick="location.reload()">
+                Send another note ↺
+              </button>
+            </div>
+
+            <!-- Form -->
+            <form id="contact-form" novalidate aria-label="Contact Samriddhi Mishra">
+              <!-- Name -->
+              <div class="form-group">
+                <label for="name" class="form-label">
+                  <span>🌸</span> Your Name <span style="color: var(--accent-rose);">*</span>
+                </label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Maya Chen" required autocomplete="name">
+                <div id="name-error" class="form-error" role="alert"></div>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email" class="form-label">
+                  <span>📫</span> Your Email <span style="color: var(--accent-rose);">*</span>
+                </label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. maya@example.com" required autocomplete="email">
+                <div id="email-error" class="form-error" role="alert"></div>
+              </div>
+
+              <!-- Subject -->
+              <div class="form-group">
+                <label for="subject" class="form-label">
+                  <span>💡</span> Subject / Topic <span style="color: var(--accent-rose);">*</span>
+                </label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Chatting about AI and research projects" required>
+                <div id="subject-error" class="form-error" role="alert"></div>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message" class="form-label">
+                  <span>📝</span> Message <span style="color: var(--accent-rose);">*</span>
+                </label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Write your thoughts, questions, or project suggestions here..." required></textarea>
+                <div id="message-error" class="form-error" role="alert"></div>
+              </div>
+
+              <!-- Submit Button -->
+              <div style="margin-top: var(--space-lg);">
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  Send Message <span>💌</span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Right: Student Details Card -->
+          <div class="contact-card-info tilt-right">
+            <div class="washi-tape tape-right" aria-hidden="true"></div>
+            
+            <h2 style="font-size: 1.35rem; margin-bottom: var(--space-lg); color: var(--text-main);">
+              Student Information 🎓
+            </h2>
+
+            <!-- Student Name & Role -->
+            <div class="info-item">
+              <div class="info-avatar">
+                <img src="images/samriddhi.jpg" alt="Samriddhi Mishra">
+              </div>
+              <div>
+                <div class="info-title">Samriddhi Mishra</div>
+                <div class="info-text">Computer Science Engineering Student</div>
+              </div>
+            </div>
+
+            <!-- Academic Affiliation -->
+            <div class="info-item">
+              <div class="info-icon">🏫</div>
+              <div>
+                <div class="info-title">Institution</div>
+                <div class="info-text">Symbiosis Institute of Technology, Nagpur</div>
+              </div>
+            </div>
+
+            <!-- Program -->
+            <div class="info-item">
+              <div class="info-icon">📚</div>
+              <div>
+                <div class="info-title">Academic Program</div>
+                <div class="info-text">B.Tech Computer Science Engineering (1st Year)</div>
+              </div>
+            </div>
+
+            <!-- Focus Areas -->
+            <div class="info-item">
+              <div class="info-icon">🧠</div>
+              <div>
+                <div class="info-title">Primary Focus</div>
+                <div class="info-text">AI / ML · Intelligent Systems · Health Data Research</div>
+              </div>
+            </div>
+
+            <!-- Note -->
+            <div style="background: #FFFDF0; border: 1.5px dashed #FFD166; padding: var(--space-md); border-radius: var(--radius-sm); margin-top: var(--space-lg);">
+              <p style="font-size: 0.85rem; color: #7A5C2E; line-height: 1.6; margin: 0;">
+                <strong>Campus Collaboration:</strong> As an undergraduate student, I welcome peer discussions on coursework, hackathons, open-source AI projects, and study groups.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Consistent Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span>♡</span> Built with curiosity by Samriddhi 
+        <button class="easter-egg-btn" aria-label="Easter egg button" title="Click me a few times! ♡">♡</button>
+      </div>
+
+      <nav aria-label="Footer Navigation">
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">Home</a></li>
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="projects.html" class="footer-link">Projects</a></li>
+          <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p class="footer-note">
+        Symbiosis Institute of Technology, Nagpur · B.Tech Computer Science Engineering
+      </p>
+    </div>
+  </footer>
+
+  <!-- Easter Egg Secret Toast -->
+  <div id="easter-egg-toast" class="secret-toast" role="alert" aria-live="polite">
+    <span>✨</span> You found the tiny secret ♡ — welcome to my digital room!
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects ♡ Samriddhi Mishra</title>
+  <meta name="description" content="Explore technical projects by Samriddhi Mishra — FRIDAY AI Assistant, NeuroTrace data research, NeerDrishti water IoT telemetry, and algorithms.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-header" id="top">
+    <div class="container navbar">
+      <a href="index.html" class="nav-logo" aria-label="Samriddhi Mishra Home">
+        <span class="nav-logo-heart">♡</span> SAMRIDDHI <span class="nav-logo-heart">♡</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="hamburger-box">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav id="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link active" aria-current="page">Projects</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="projects-page-section" aria-labelledby="projects-page-heading">
+      <div class="container">
+        <!-- Page Header -->
+        <div class="section-header">
+          <div class="section-eyebrow">
+            <span>✨</span> PROTOTYPES &amp; RESEARCH
+          </div>
+          <h1 id="projects-page-heading" class="section-title">Things I've been building ♡</h1>
+          <p class="section-subtitle">
+            Hands-on explorations across intelligent systems, health data research, web engineering, and physical sensors.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-container" role="toolbar" aria-label="Filter projects by category">
+          <button type="button" class="filter-btn active" data-filter="all">All Projects</button>
+          <button type="button" class="filter-btn" data-filter="ai / ml">AI / ML</button>
+          <button type="button" class="filter-btn" data-filter="intelligent systems">Intelligent Systems</button>
+          <button type="button" class="filter-btn" data-filter="research">Research</button>
+          <button type="button" class="filter-btn" data-filter="web">Web</button>
+          <button type="button" class="filter-btn" data-filter="iot">IoT</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-list">
+          
+          <!-- PROJECT 1: FRIDAY -->
+          <article class="project-card" data-category="intelligent systems, ai / ml">
+            <div class="project-thumbnail">
+              <span class="project-status status-ongoing">Ongoing</span>
+              <img src="images/project-friday.svg" alt="FRIDAY AI assistant project illustration with laptop and companion robot">
+            </div>
+            <div class="project-content">
+              <span class="project-category">Intelligent Systems · AI</span>
+              <h2 class="project-title">FRIDAY</h2>
+              <p class="project-description">
+                A personal AI assistant project exploring memory, reasoning, intent recognition, tools, natural-language interaction and future device interaction. Designed to explore how software can understand user requests contextually and execute structured actions.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">AI</span>
+                <span class="tech-tag">APIs</span>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">GitHub</span>
+              </div>
+              <div class="project-actions">
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Status: Active Development</span>
+                <span class="tech-tag" style="background: var(--bg-mint); border-color: var(--accent-mint);">Intelligent Agent</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: NEUROTRACE -->
+          <article class="project-card" data-category="ai / ml, research">
+            <div class="project-thumbnail">
+              <span class="project-status status-research">Research / Dev</span>
+              <img src="images/project-neurotrace.svg" alt="NeuroTrace neurological data research illustration with brain nodes and graphs">
+            </div>
+            <div class="project-content">
+              <span class="project-category">AI / ML · Research</span>
+              <h2 class="project-title">NeuroTrace</h2>
+              <p class="project-description">
+                An AI/ML research-oriented project exploring neurological datasets and patterns related to Parkinson’s disease and Alzheimer’s disease through data analysis, feature exploration and machine-learning experimentation. Focuses on statistical variance and signal correlation across clinical benchmark records.
+              </p>
+              <div class="project-disclaimer">
+                <span>ℹ️</span> <em>Research exploration only. Does not diagnose diseases.</em>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Google Colab</span>
+              </div>
+              <div class="project-actions">
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Status: Academic Research</span>
+                <span class="tech-tag" style="background: var(--bg-lavender); border-color: var(--accent-lavender);">Data Science</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: NEERDRISHTI -->
+          <article class="project-card" data-category="ai / ml, iot, research">
+            <div class="project-thumbnail">
+              <span class="project-status status-research">Concept / Dev</span>
+              <img src="images/project-neerdrishti.svg" alt="NeerDrishti smart water health telemetry and early warning concept illustration">
+            </div>
+            <div class="project-content">
+              <span class="project-category">AI / ML · IoT · Research</span>
+              <h2 class="project-title">NeerDrishti</h2>
+              <p class="project-description">
+                A smart community health monitoring and early-warning concept focused on water-related health risks using environmental and water-quality indicators such as pH, turbidity, TDS/conductivity, temperature and microbial indicators. Investigates how monsoon rainfall correlation can assist local prevention protocols.
+              </p>
+              <div class="project-disclaimer">
+                <span>ℹ️</span> <em>Environmental indicator concept. Does not provide medical diagnosis.</em>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">IoT</span>
+                <span class="tech-tag">Data Analysis</span>
+              </div>
+              <div class="project-actions">
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Status: Conceptual Prototype</span>
+                <span class="tech-tag" style="background: #EAF8F8; border-color: #A0E7E5;">IoT Telemetry</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: PORTFOLIO DIGITAL ROOM -->
+          <article class="project-card" data-category="web">
+            <div class="project-thumbnail">
+              <span class="project-status status-complete">Complete</span>
+              <img src="images/project-webhub.svg" alt="Portfolio digital room web project illustration">
+            </div>
+            <div class="project-content">
+              <span class="project-category">Web Development</span>
+              <h2 class="project-title">Portfolio Digital Room</h2>
+              <p class="project-description">
+                A personal multi-page digital room created strictly with vanilla HTML5, CSS3, and JavaScript. Designed with a cute scrapbook visual language, custom SVG illustrations, responsive layouts, and complete offline compatibility without any external build tools or frameworks.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Vanilla JavaScript</span>
+                <span class="tech-tag">SVG</span>
+              </div>
+              <div class="project-actions">
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Status: Active Site</span>
+                <span class="tech-tag" style="background: var(--bg-peach); border-color: var(--border-card);">Vanilla Web</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: SENSORY NODE SIMULATOR -->
+          <article class="project-card" data-category="iot, research">
+            <div class="project-thumbnail">
+              <span class="project-status status-ongoing">Exploration</span>
+              <img src="images/project-tinyml.svg" alt="Sensory node microcontroller telemetry illustration">
+            </div>
+            <div class="project-content">
+              <span class="project-category">IoT · Embedded Systems</span>
+              <h2 class="project-title">Sensory Node Simulator</h2>
+              <p class="project-description">
+                A serial telemetry logger designed in C and Python to simulate microcontroller edge feeds. Explores data buffering, transmission integrity over serial baud rates, and structured time-series formatting for downstream machine learning analysis.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Serial Protocols</span>
+                <span class="tech-tag">Data Logging</span>
+              </div>
+              <div class="project-actions">
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Status: Experimental</span>
+                <span class="tech-tag" style="background: var(--bg-yellow); border-color: var(--accent-yellow);">Edge Logic</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: ALGORITHMIC LAB -->
+          <article class="project-card" data-category="research, ai / ml">
+            <div class="project-thumbnail">
+              <span class="project-status status-ongoing">Ongoing</span>
+              <img src="images/project-algo.svg" alt="Algorithmic experiments tree visual illustration">
+            </div>
+            <div class="project-content">
+              <span class="project-category">Research · Data Structures</span>
+              <h2 class="project-title">Algorithmic Lab</h2>
+              <p class="project-description">
+                A collection of exploratory Python and C scripts analyzing time complexity, tree traversal algorithms, and memory bounds across varying problem sizes. Uses NumPy to benchmark real-world computational speed against theoretical Big-O curves.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">Matplotlib</span>
+              </div>
+              <div class="project-actions">
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">Status: Study Lab</span>
+                <span class="tech-tag" style="background: var(--bg-mint); border-color: var(--accent-mint);">Algorithms</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Consistent Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span>♡</span> Built with curiosity by Samriddhi 
+        <button class="easter-egg-btn" aria-label="Easter egg button" title="Click me a few times! ♡">♡</button>
+      </div>
+
+      <nav aria-label="Footer Navigation">
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">Home</a></li>
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="projects.html" class="footer-link">Projects</a></li>
+          <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p class="footer-note">
+        Symbiosis Institute of Technology, Nagpur · B.Tech Computer Science Engineering
+      </p>
+    </div>
+  </footer>
+
+  <!-- Easter Egg Secret Toast -->
+  <div id="easter-egg-toast" class="secret-toast" role="alert" aria-live="polite">
+    <span>✨</span> You found the tiny secret ♡ — welcome to my digital room!
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

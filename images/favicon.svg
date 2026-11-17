@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1" flood-color="#4A2E4B" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <!-- Cute Pink Heart -->
+  <path d="M32 54 C32 54 10 38 10 24 C10 16 16 10 24 10 C28 10 30.5 12 32 15 C33.5 12 36 10 40 10 C48 10 54 16 54 24 C54 38 32 54 32 54 Z" 
+        fill="#FF8FAB" stroke="#4A2E4B" stroke-width="3" stroke-linejoin="round" filter="url(#shadow)" />
+  <!-- Cute Sparkle -->
+  <path d="M46 16 L48 10 L50 16 L56 18 L50 20 L48 26 L46 20 L40 18 Z" fill="#FFE599" stroke="#4A2E4B" stroke-width="1.5" stroke-linejoin="round" />
+  <!-- Cute Glint -->
+  <ellipse cx="23" cy="20" rx="4" ry="2" transform="rotate(-30 23 20)" fill="#FFFFFF" opacity="0.8" />
+  <!-- Mini Smile -->
+  <path d="M29 28 Q32 32 35 28" fill="none" stroke="#4A2E4B" stroke-width="2" stroke-linecap="round" />
+  <circle cx="27" cy="24" r="1.5" fill="#4A2E4B" />
+  <circle cx="37" cy="24" r="1.5" fill="#4A2E4B" />
+</svg>
